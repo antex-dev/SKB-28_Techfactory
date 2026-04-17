@@ -18,7 +18,7 @@ Traditional MRV systems depend heavily on optical satellite imagery, which becom
 
 ##  PPT / Project Presentation
 
-[Click here to view/download PPT](./IDEA FACTORY SKB-28.pptx)
+[Click here to view/download PPT](./IDEA_FACTORY_SKB-28.pptx)
 
 ## Features
 - Cloud-proof monitoring using SAR data  
