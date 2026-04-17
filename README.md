@@ -1,8 +1,17 @@
 # SKB-28_Techfactory
-Aditya Yuvnate
-Aniruddha Wadankar
-Aman Wadichar
-Jeshtha Suyavanshi
-Kapindra Shetiye
-Mayuri Patle
-DISCRIPTION :-This system addresses one of the biggest challenges in carbon markets—accurate and reliable Monitoring, Reporting, and Verification (MRV) at the farm level. Traditional MRV systems depend heavily on optical satellite imagery, which becomes unreliable under cloud cover, seasonal variability, and noisy environmental conditions
+## 👥 Team Members
+- Aditya Yuvnate  
+- Aniruddha Wadankar  
+- Aman Wadichar  
+- Jeshtha Suyavanshi  
+- Kapindra Shetiye  
+- Mayuri Patle  
+
+## 📌 Problem Statement
+Accurate Monitoring, Reporting, and Verification (MRV) in carbon markets is a major challenge. Traditional systems rely on optical satellite imagery, which fails under cloud cover, seasonal changes, and environmental noise.
+
+## 📌 Description
+
+This system addresses one of the biggest challenges in carbon markets — ensuring accurate and reliable Monitoring, Reporting, and Verification (MRV) at the farm level.
+
+Traditional MRV systems depend heavily on optical satellite imagery, which becomes unreliable under cloud cover, seasonal variability, and noisy environmental conditions.
