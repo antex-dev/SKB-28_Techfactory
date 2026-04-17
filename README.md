@@ -32,4 +32,65 @@ Traditional MRV systems depend heavily on optical satellite imagery, which becom
 ##  Impact
 - Promotes sustainable farming  
 - Reduces greenhouse gas emissions  
-- Builds trust in carbon markets  
+- Builds trust in carbon markets
+
+##   Modal Chart/ Architecture Details
+
+User → Frontend → Backend → AI Engine → Fusion Layer → Data Sources
+
+
+                      USER LAYER
+        ┌─────────────────────────────────────┐
+        │  Farmers | Companies | Government   │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+                   FRONTEND (Next.js)
+        ┌─────────────────────────────────────┐
+        │  • Interactive Map (MapLibre)       │
+        │  • Dashboards (Farmer/Company/Admin)│
+        │  • Voice Chat UI                    │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+                  BACKEND (FastAPI)
+        ┌─────────────────────────────────────┐
+        │  • REST APIs                        │
+        │  • Auth (JWT + RBAC)                │
+        │  • Business Logic                   │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+                  AI ENGINE (Python)
+        ┌─────────────────────────────────────┐
+        │  • AWD Detection Model (LSTM/ViT)   │
+        │  • Methane Estimation               │
+        │  • Rain vs Irrigation Classifier    │
+        │  • Voice NLP (Llama3)               │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+           MULTI-MODAL FUSION LAYER
+        ┌─────────────────────────────────────┐
+        │  Combine:                           │
+        │  • SAR (Sentinel-1)                 │
+        │  • Optical (Sentinel-2 NDWI)        │
+        │  • Weather (IMD API)                │
+        │  • Temperature (Sentinel-3)         │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+                    DATA LAYER
+        ┌─────────────────────────────────────┐
+        │  • PostgreSQL + PostGIS             │
+        │  • Google Earth Engine              │
+        │  • Farm Boundaries (BHUKOS)         │
+        └─────────────────────────────────────┘
+                          │
+                          ▼
+                    DEPLOYMENT
+        ┌─────────────────────────────────────┐
+        │  • Vercel (Frontend)                │
+        │  • Railway (Backend)                │
+        │  • Cloudflare (CDN/Security)        │
+        └─────────────────────────────────────┘
